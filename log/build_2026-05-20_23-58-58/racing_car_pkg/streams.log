@@ -1,0 +1,15 @@
+[0.755s] Invoking command in '/home/seojun/바탕화면/ros2_ws/build/racing_car_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/seojun/바탕화면/ros2_ws/build/racing_car_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seojun/바탕화면/ros2_ws/install/racing_car_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/seojun/바탕화면/ros2_ws/build/racing_car_pkg/build --no-deps symlink_data
+[1.025s] running develop
+[1.172s] running egg_info
+[1.185s] writing racing_car_pkg.egg-info/PKG-INFO
+[1.185s] writing dependency_links to racing_car_pkg.egg-info/dependency_links.txt
+[1.186s] writing requirements to racing_car_pkg.egg-info/requires.txt
+[1.186s] writing top-level names to racing_car_pkg.egg-info/top_level.txt
+[1.215s] reading manifest file 'racing_car_pkg.egg-info/SOURCES.txt'
+[1.218s] writing manifest file 'racing_car_pkg.egg-info/SOURCES.txt'
+[1.234s] running build_ext
+[1.234s] Creating /home/seojun/바탕화면/ros2_ws/install/racing_car_pkg/lib/python3.12/site-packages/racing-car-pkg.egg-link (link to .)
+[1.234s] 
+[1.234s] Installed /home/seojun/바탕화면/ros2_ws/build/racing_car_pkg
+[1.234s] running symlink_data
+[1.268s] Invoked command in '/home/seojun/바탕화면/ros2_ws/build/racing_car_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/seojun/바탕화면/ros2_ws/build/racing_car_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seojun/바탕화면/ros2_ws/install/racing_car_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/seojun/바탕화면/ros2_ws/build/racing_car_pkg/build --no-deps symlink_data

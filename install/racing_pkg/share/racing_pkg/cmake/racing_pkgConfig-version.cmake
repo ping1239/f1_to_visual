@@ -1,0 +1,1 @@
+/home/seojun/바탕화면/ros2_ws/build/racing_pkg/ament_cmake_core/racing_pkgConfig-version.cmake

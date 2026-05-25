@@ -1,0 +1,35 @@
+[0.204s] Invoking command in '/home/seojun/바탕화면/ros2_ws/build/racing_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seojun/바탕화면/ros2_ws/install/racing_car_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/seojun/바탕화면/ros2_ws/build/racing_pkg -- -j8 -l8
+[0.307s] [ 50%] Built target track_publisher
+[0.328s] [100%] Built target car_node
+[0.344s] Invoked command in '/home/seojun/바탕화면/ros2_ws/build/racing_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seojun/바탕화면/ros2_ws/install/racing_car_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/seojun/바탕화면/ros2_ws/build/racing_pkg -- -j8 -l8
+[0.358s] Invoking command in '/home/seojun/바탕화면/ros2_ws/build/racing_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seojun/바탕화면/ros2_ws/install/racing_car_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/seojun/바탕화면/ros2_ws/build/racing_pkg
+[0.371s] -- Install configuration: ""
+[0.372s] -- Execute custom install script
+[0.372s] -- Up-to-date symlink: /home/seojun/바탕화면/ros2_ws/install/racing_pkg/lib/racing_pkg/car_node
+[0.372s] -- Up-to-date symlink: /home/seojun/바탕화면/ros2_ws/install/racing_pkg/lib/racing_pkg/track_publisher
+[0.373s] -- Up-to-date symlink: /home/seojun/바탕화면/ros2_ws/install/racing_pkg/share/racing_pkg/launch/multi_car_launch.py
+[0.373s] -- Up-to-date symlink: /home/seojun/바탕화면/ros2_ws/install/racing_pkg/share/racing_pkg/urdf/ML_path_car.urdf
+[0.373s] -- Up-to-date symlink: /home/seojun/바탕화면/ros2_ws/install/racing_pkg/share/racing_pkg/urdf/TUM_path_car.urdf
+[0.373s] -- Up-to-date symlink: /home/seojun/바탕화면/ros2_ws/install/racing_pkg/share/racing_pkg/urdf/real_path_car.urdf
+[0.373s] -- Up-to-date symlink: /home/seojun/바탕화면/ros2_ws/install/racing_pkg/share/racing_pkg/config/car_view.rviz
+[0.373s] -- Up-to-date symlink: /home/seojun/바탕화면/ros2_ws/install/racing_pkg/share/racing_pkg/path_ideal/traj_Monza_TUM.csv
+[0.373s] -- Up-to-date symlink: /home/seojun/바탕화면/ros2_ws/install/racing_pkg/share/racing_pkg/path_ideal/trajectory.csv
+[0.373s] -- Up-to-date symlink: /home/seojun/바탕화면/ros2_ws/install/racing_pkg/share/racing_pkg/path_ML/traj_Monza_ML.csv
+[0.374s] -- Up-to-date symlink: /home/seojun/바탕화면/ros2_ws/install/racing_pkg/share/racing_pkg/path_real/traj_Monza_realistic.csv
+[0.374s] -- Up-to-date symlink: /home/seojun/바탕화면/ros2_ws/install/racing_pkg/share/racing_pkg/tracks/Monza.csv
+[0.374s] -- Up-to-date symlink: /home/seojun/바탕화면/ros2_ws/install/racing_pkg/share/ament_index/resource_index/package_run_dependencies/racing_pkg
+[0.374s] -- Up-to-date symlink: /home/seojun/바탕화면/ros2_ws/install/racing_pkg/share/ament_index/resource_index/parent_prefix_path/racing_pkg
+[0.374s] -- Up-to-date symlink: /home/seojun/바탕화면/ros2_ws/install/racing_pkg/share/racing_pkg/environment/ament_prefix_path.sh
+[0.374s] -- Up-to-date symlink: /home/seojun/바탕화면/ros2_ws/install/racing_pkg/share/racing_pkg/environment/ament_prefix_path.dsv
+[0.374s] -- Up-to-date symlink: /home/seojun/바탕화면/ros2_ws/install/racing_pkg/share/racing_pkg/environment/path.sh
+[0.374s] -- Up-to-date symlink: /home/seojun/바탕화면/ros2_ws/install/racing_pkg/share/racing_pkg/environment/path.dsv
+[0.374s] -- Up-to-date symlink: /home/seojun/바탕화면/ros2_ws/install/racing_pkg/share/racing_pkg/local_setup.bash
+[0.374s] -- Up-to-date symlink: /home/seojun/바탕화면/ros2_ws/install/racing_pkg/share/racing_pkg/local_setup.sh
+[0.374s] -- Up-to-date symlink: /home/seojun/바탕화면/ros2_ws/install/racing_pkg/share/racing_pkg/local_setup.zsh
+[0.375s] -- Up-to-date symlink: /home/seojun/바탕화면/ros2_ws/install/racing_pkg/share/racing_pkg/local_setup.dsv
+[0.375s] -- Symlinking: /home/seojun/바탕화면/ros2_ws/install/racing_pkg/share/racing_pkg/package.dsv
+[0.388s] -- Up-to-date symlink: /home/seojun/바탕화면/ros2_ws/install/racing_pkg/share/ament_index/resource_index/packages/racing_pkg
+[0.388s] -- Up-to-date symlink: /home/seojun/바탕화면/ros2_ws/install/racing_pkg/share/racing_pkg/cmake/racing_pkgConfig.cmake
+[0.388s] -- Up-to-date symlink: /home/seojun/바탕화면/ros2_ws/install/racing_pkg/share/racing_pkg/cmake/racing_pkgConfig-version.cmake
+[0.388s] -- Up-to-date symlink: /home/seojun/바탕화면/ros2_ws/install/racing_pkg/share/racing_pkg/package.xml
+[0.391s] Invoked command in '/home/seojun/바탕화면/ros2_ws/build/racing_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seojun/바탕화면/ros2_ws/install/racing_car_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/seojun/바탕화면/ros2_ws/build/racing_pkg

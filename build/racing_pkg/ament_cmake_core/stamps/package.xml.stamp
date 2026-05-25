@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>racing_pkg</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="guping625@gmail.com">seojun</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>                <!-- C++ ROS 2 라이브러리 -->
+  <depend>robot_state_publisher</depend> <!-- URDF 방송용 -->
+  <depend>rviz2</depend>                 <!-- 시각화 도구 -->
+  <depend>tf2_ros</depend>               <!-- 좌표계 관리 -->
+  <depend>nav_msgs</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

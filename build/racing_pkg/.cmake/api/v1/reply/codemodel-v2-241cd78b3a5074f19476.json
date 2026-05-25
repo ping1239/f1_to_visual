@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e0861a197de913d067b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "racing_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "car_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_node-c94f41b90ecc10944b42.json",
+					"name" : "car_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "racing_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-racing_pkg_uninstall-f766c5917ccd7ecef233.json",
+					"name" : "racing_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "track_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-track_publisher-8c7f1f89f4eab0cc9279.json",
+					"name" : "track_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-64e75e0141ad2a1a966e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/seojun/\ubc14\ud0d5\ud654\uba74/ros2_ws/build/racing_pkg",
+		"source" : "/home/seojun/\ubc14\ud0d5\ud654\uba74/ros2_ws/src/racing_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

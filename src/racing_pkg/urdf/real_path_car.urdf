@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<robot name="racing_car">
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="2.0 4.7 1.5"/> 
+      </geometry>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+  </link>
+ 
+<link name="marker_pole">
+    <visual>
+      <origin xyz="0 0 50.0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.1" length="100.0"/>
+      </geometry>
+      <!-- 멀리서도 잘 보이도록 고대비 노란색 설정 -->
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- 3. 로봇 바디 위에 막대기를 고정하는 조인트 -->
+  <joint name="base_to_marker" type="fixed">
+    <parent link="base_link"/>
+    <child link="marker_pole"/>
+      <!-- 
+      [위치 계산 팁]
+      기존 박스 높이가 1.5m이므로 박스 상단 표면은 z = 0.75m 지점입니다.
+      100m짜리 막대기의 중심이 z = 0.75 + 50.0 = 50.75m에 위치해야 
+      박스 지붕에 딱 붙어서 위로 솟아오르게 됩니다.
+    -->
+    <origin xyz="0 0 0.75" rpy="0 0 0"/>
+  </joint>
+
+</robot>

@@ -1,0 +1,29 @@
+running develop
+running egg_info
+creating racing_car_pkg.egg-info
+writing racing_car_pkg.egg-info/PKG-INFO
+writing dependency_links to racing_car_pkg.egg-info/dependency_links.txt
+writing requirements to racing_car_pkg.egg-info/requires.txt
+writing top-level names to racing_car_pkg.egg-info/top_level.txt
+writing manifest file 'racing_car_pkg.egg-info/SOURCES.txt'
+reading manifest file 'racing_car_pkg.egg-info/SOURCES.txt'
+writing manifest file 'racing_car_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/seojun/바탕화면/ros2_ws/install/racing_car_pkg/lib/python3.12/site-packages/racing-car-pkg.egg-link (link to .)
+
+Installed /home/seojun/바탕화면/ros2_ws/build/racing_car_pkg
+running symlink_data
+creating /home/seojun/바탕화면/ros2_ws/install/racing_car_pkg/share/ament_index
+creating /home/seojun/바탕화면/ros2_ws/install/racing_car_pkg/share/ament_index/resource_index
+creating /home/seojun/바탕화면/ros2_ws/install/racing_car_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/seojun/바탕화면/ros2_ws/build/racing_car_pkg/resource/racing_car_pkg -> /home/seojun/바탕화면/ros2_ws/install/racing_car_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/seojun/바탕화면/ros2_ws/build/racing_car_pkg/package.xml -> /home/seojun/바탕화면/ros2_ws/install/racing_car_pkg/share/racing_car_pkg
+creating /home/seojun/바탕화면/ros2_ws/install/racing_car_pkg/share/racing_car_pkg/launch
+symbolically linking /home/seojun/바탕화면/ros2_ws/build/racing_car_pkg/launch/multi_car_launch.py -> /home/seojun/바탕화면/ros2_ws/install/racing_car_pkg/share/racing_car_pkg/launch
+symbolically linking /home/seojun/바탕화면/ros2_ws/build/racing_car_pkg/launch/car_launch.py -> /home/seojun/바탕화면/ros2_ws/install/racing_car_pkg/share/racing_car_pkg/launch
+symbolically linking /home/seojun/바탕화면/ros2_ws/build/racing_car_pkg/launch/racing_launch.py -> /home/seojun/바탕화면/ros2_ws/install/racing_car_pkg/share/racing_car_pkg/launch
+creating /home/seojun/바탕화면/ros2_ws/install/racing_car_pkg/share/racing_car_pkg/config
+symbolically linking /home/seojun/바탕화면/ros2_ws/build/racing_car_pkg/config/my_view.rviz -> /home/seojun/바탕화면/ros2_ws/install/racing_car_pkg/share/racing_car_pkg/config
+symbolically linking /home/seojun/바탕화면/ros2_ws/build/racing_car_pkg/config/car_view.rviz -> /home/seojun/바탕화면/ros2_ws/install/racing_car_pkg/share/racing_car_pkg/config
+creating /home/seojun/바탕화면/ros2_ws/install/racing_car_pkg/share/racing_car_pkg/urdf
+symbolically linking /home/seojun/바탕화면/ros2_ws/build/racing_car_pkg/urdf/car.urdf -> /home/seojun/바탕화면/ros2_ws/install/racing_car_pkg/share/racing_car_pkg/urdf

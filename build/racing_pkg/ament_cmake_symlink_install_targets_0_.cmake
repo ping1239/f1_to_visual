@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/seojun/바탕화면/ros2_ws/build/racing_pkg/car_node" "/home/seojun/바탕화면/ros2_ws/build/racing_pkg/track_publisher" "TARGETS" "car_node" "track_publisher" "DESTINATION" "lib/racing_pkg")
